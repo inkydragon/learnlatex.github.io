@@ -2,61 +2,53 @@
 title: learnlatex.org
 ---
 
-## Welcome to learnlatex.org!
+## 欢迎来到 LearnLaTeX.org！
 
-This site aims to help you take the first steps with LaTeX, a document
-preparation system designed to produce high-quality typeset output. LaTeX can
-be scary for new users as it is _not_ a word processor, and because it is not a
-single program. Our aim here is to help you get started without trying to show
-you _everything_ in one go.
+本站致力于帮助你迈出使用 LaTeX 的第一步。
+LaTeX 是一种以输出高质量文档为目标的排版系统。
+刚接触 LaTeX 时新手可能会感到害怕，因为它既**不是**类似 Word 的字处理程序，也不是一个单独的程序。
+我们的主要目标是帮助你入门，而不是试图**教会你一切**。
 
-To do that, we have taken around 15 of the most important things you'll need to
-know, and made them into short 'lessons'. Each lesson is very focused, so they
-should not take too long to cover. In each lesson, we've given examples of what
-you'd write, and they are available so you can try them out online.
+为了达到这一点，我们选出了 15 个你应该掌握的重要知识点，并把它们编成了简短的“课程”。
+每节课的内容都非常集中，因此掌握他们不会花费你太多时间。
+我们在每节课中都给出了你要写出的例子，而且你可以在线修改、编译他们。
 
-We know that people will want to know more than we can cover in 15 short
-lessons. To help guide you when you need more information, we have therefore
-included a 'going further' page for each lesson. This extra information is
-there to support you when you need the detail, but should not get in your
-way if you do not.
+我们知道当人们学完 15 个简短的课程之后，可能还想要了解更多的知识。
+当你想要继续学习，了解更多信息时，我们为你提供了一些指引：每节课都包含一个“更进一步”的页面。
+这些额外的信息是在你想要深入学习时为你提供支持的，而不是在你不需要的时候阻碍你。
 
-## How the examples work
+## 如何运行示例
 
-To support your learning, the site includes lots of examples. In
-[Lesson 2](lesson-02) we will talk about how you use LaTeX both online and
-with a local installation on your PC. To get you started, we have set up
-our examples so you can edit and run them in this website. We
-have also linked them to [Overleaf](https://www.overleaf.com), one of the
-most popular online LaTeX editing services. But don't worry, you can also
-use the examples on your machine. You can read more about how to use the
-examples in [the help page](help).
+为了帮助你更好的学习，这个网站提供了很多的例子。
+在[第二课](lesson-02)中，我们将讨论如何运行 LaTeX，包括在线使用和本地安装。
+为了帮助你入门，我们已经在网站中嵌入了示例代码，你可以在线编辑和运行他们。
+我们也提供了指向 [Overleaf](https://www.overleaf.com) 的链接，
+Overleaf 是最流行的在线 LaTeX 编辑服务之一。
+但是不用担心，你也可以在自己的电脑上运行这些例子。
+你可以在[帮助页面](help)找到更多关于如何使用示例代码的信息。
 
-Our examples are based around using an up-to-date LaTeX installation. They
-all work with both of our online demonstration systems, so if you get
-errors with the examples we provide, you might want to check if your LaTeX
-system is up-to-date.
+我们的示例基于最新的 LaTeX 发行版。
+所有示例都可以在我们的两个在线环境中运行，因此如果你在本地运行示例报错，
+你可能需要先检查一下你的 LaTeX 版本是否是最新的。
 
-## The lessons
+## 课程目录
 
 {% include toc.html  prefix="zh/lesson" %}
 
-### Additional lessons specific to learnlatex.org/en
+### 对于中文使用者的附加材料
 
 {% include toc.html  prefix="zh/language" %}
 
 
-## Going further
+## 进一步的学习
 
-The focused lessons here are not meant to cover everything you'll ever need to
-know about LaTeX; we want to give you enough to get started and to _understand_
-examples and advice elsewhere. We cover getting more information in [the last
-lesson](lesson-15), but it's worth saying now that getting access to a book
-about LaTeX is still the  best way to learn the details. We've given some
-recommendations in the last lesson.
+课程包含了我们认为重要的知识点，但这并不意味着课程已经涵盖了你需要了解的关于 LaTeX 的所有内容；
+我们希望为你提供足够的信息，以便开始学习并**理解**其他方面的示例和建议。
+我们在[最后一节课](lesson-15)中谈到了如何获取更多信息，但值得指出的是，
+阅读一本关于 LaTeX 的书籍仍然是学习细节的最好方式。
+我们已经在最后一节课中给出了一些建议。
 
-Finally we offer a gallery of small examples showing
-a range of different subject areas not covered in this introduction,
-and different LaTeX packages in those areas.
+最后我们提供了一个微型示例的画廊，展示了本课程中未涉及的一系列不同主题的领域，
+以及这些领域中所用到的各种 LaTeX 宏包。
     
 {% include toc.html prefix="zh/extra" %}
