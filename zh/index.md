@@ -24,13 +24,13 @@ way if you do not.
 ## How the examples work
 
 To support your learning, the site includes lots of examples. In
-[Lesson 2](en/lesson-02) we will talk about how you use LaTeX both online and
+[Lesson 2](zh/lesson-02) we will talk about how you use LaTeX both online and
 with a local installation on your PC. To get you started, we have set up
 our examples so you can edit and run them in this website. We
 have also linked them to [Overleaf](https://www.overleaf.com), one of the
 most popular online LaTeX editing services. But don't worry, you can also
 use the examples on your machine. You can read more about how to use the
-examples in [the help page](en/help).
+examples in [the help page](zh/help).
 
 Our examples are based around using an up-to-date LaTeX installation. They
 all work with both of our online demonstration systems, so if you get
@@ -39,11 +39,11 @@ system is up-to-date.
 
 ## The lessons
 
-{% include toc.html  prefix="en/lesson" %}
+{% include toc.html  prefix="zh/lesson" %}
 
 ### Additional lessons specific to learnlatex.org/en
 
-{% include toc.html  prefix="en/language" %}
+{% include toc.html  prefix="zh/language" %}
 
 
 ## Going further
@@ -51,7 +51,7 @@ system is up-to-date.
 The focused lessons here are not meant to cover everything you'll ever need to
 know about LaTeX; we want to give you enough to get started and to _understand_
 examples and advice elsewhere. We cover getting more information in [the last
-lesson](en/lesson-15), but it's worth saying now that getting access to a book
+lesson](zh/lesson-15), but it's worth saying now that getting access to a book
 about LaTeX is still the  best way to learn the details. We've given some
 recommendations in the last lesson.
 
@@ -59,4 +59,4 @@ Finally we offer a gallery of small examples showing
 a range of different subject areas not covered in this introduction,
 and different LaTeX packages in those areas.
     
-{% include toc.html prefix="en/extra" %}
+{% include toc.html prefix="zh/extra" %}
