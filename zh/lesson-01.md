@@ -1,38 +1,32 @@
 ---
-title: "What is LaTeX and how does it work?"
+title: "什么是 LaTeX ？它是如何工作的？"
 ---
 
-Unlike common word processors such as Microsoft Word or LibreOffice, LaTeX
-usually does not provide WYSIWYG ('What You See Is What You Get'). With LaTeX
-one takes plain text and enriches it with markup. This markup tells LaTeX
-about the logical meaning of certain elements of the text, similar to the way
-HTML does.
+不像传统的字处理软件，如微软的 Word 或者 LibreOffice，LaTeX 通常不提供所见即所得功能。
+在使用 LaTeX 时，我们会在纯文本的基础上用标记语言去丰富它。
+类似 HTML 的做法，这些标记会告诉 LaTeX 文本中某些元素的逻辑意义。
 
-Take for example the element  `<h2>`  indicating a new section in an HTML document.
-LaTeX also has a command for this; here one would use the `\section` command.
+举个例子：在 HTML 文档中，`<h2>` 标签标记着一个新的小节。
+LaTeX 也有类似的命令，这里是 `\section`。
 
-## The {{ site.latex }} workflow
+## {{ site.latex }} 的工作流程
 
-Because LaTeX files are not the document itself but rather instructions
-on what each part of the document should be, you don't normally give other
-people your LaTeX file itself. Instead, after writing your LaTeX _source_, you
-run LaTeX on the file (normally using a program called `pdflatex`) to
-create a PDF file. This PDF is then what you send to others.
+因为 LaTeX 文件不是文档本身，而是说明了文档的每个部分应当是什么。
+所以通常不会将 LaTeX 文件直接提供给其他人。
+一般是在编写完 LaTeX **源代码**之后，编译 LaTeX 文件得到 PDF 文档，然后把 PDF 文档发给其他人。
+编译 LaTeX 通常会使用一个叫 `pdflatex` 的程序。
 
-Different people use different ways to describe this process. As using LaTeX
-is a bit like programming, it's often called 'compiling' your document, although
-'typesetting' is more accurate.
+不同的人会使用不同的方式来描述这个过程。
+使用 LaTeX 有点像编程，尽管“排版”一词的描述更加精确，但人们一般把这个过程叫做“编译”文档。
 
-## Multiple {{ site.latex }} runs
+## 多次编译 {{ site.latex }}
 
-For simple files, you only need to typeset your file once to get the completed
-PDF. But once you start adding more complicated things, like cross-references,
-citations, figures, and tables of contents, you might need to run LaTeX more
-than once. We'll tell you when that's the case.
+对于简单的文件，你只需要排版一次即可得到完整的 PDF。
+但当你开始添加更为复杂的内容，如交叉引用、文献引用、图表和目录时，你可能需要多次运行 LaTeX。
+如果需要多次编译，我们会告诉你的。
 
-## {{ site.latex }} or pdf{{ site.latex }} or ...
+## {{ site.latex }} 或 pdf{{ site.latex }} 或 ...
 
-In the [next lesson](lesson-02), we are going to see that LaTeX is not a
-single program. To keep things simple, we are going to focus on one particular
-LaTeX program, pdfLaTeX, for creating your PDFs. We will look at some other
-programs, and why you might want to use them, later in the course.
+在[下一课](lesson-02)中，我们将看到 LaTeX 不是一个单独的程序。
+为了保持简单，我们会专注于使用特定的 LaTeX 程序 —— pdfLaTeX 来创建 PDF。
+我们会在后续课程中见到其他的程序，以及什么时候你可能想使用它们。
